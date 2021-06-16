@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ababab"
+    android:background="@drawable/login"
     tools:context=".LoginActivity">
 
         <ImageView
@@ -23,13 +23,14 @@
         android:layout_below="@id/login_applogo"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
+        android:hint="@string/phone_number"
         android:paddingVertical="0dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/input_design"
-        android:hint="@string/phone_number"
+
         android:inputType="number"
-        android:padding="200dp"
+        android:padding="20dp"
         android:textColor="#000000"
         android:textColorHint="@color/colorPrimaryDark"
         android:textSize="17sp" />
@@ -48,7 +49,7 @@
         android:hint="@string/password"
         android:inputType="number"
         android:visibility="visible"
-        android:padding="200dp"
+        android:padding="20dp"
         android:textColor="#000000"
         android:textColorHint="#00ff00"
         android:textSize="17sp" />
